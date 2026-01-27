@@ -1,0 +1,34 @@
+body {
+    background-color: #fff9c4; /* vàng sáng */
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+
+.doanvan {
+    font-family: Verdana;
+    color: green;
+}
+
+.danhsach-so {
+    font-family: Verdana;
+    color: purple;
+}
+
+.danhsach-sao {
+    font-family: "Times New Roman";
+    color: blue;
+}
+.danhsach-so li {
+    font-style: italic;
+}

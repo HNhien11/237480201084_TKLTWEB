@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
+}
+
+/* MENU BÊN TRÁI */
+.menu {
+    width: 250px;
+    background-color: black;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid gray;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.menu a:hover {
+    background-color: #444;
+}
+
+/* NỘI DUNG BÊN PHẢI */
+.content {
+    flex: 1;
+    background-color: #ddd;
+    padding: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 20px;
+}
+

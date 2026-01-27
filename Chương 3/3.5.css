@@ -1,0 +1,84 @@
+body {
+    font-family: Arial;
+}
+
+/* khung chính */
+.khung {
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+/* khung hẹp phía trên */
+.khung-tren {
+    width: fit-content;
+    font-family: "Times New Roman";
+    font-size: 13pt;
+    margin-bottom: 10px;
+}
+
+/* gạch đậm dưới khung trên */
+.gach-duoi {
+    border: none;
+    border-top: 3px solid black;
+    width: 100%;
+    margin: 2px 0 0 0;
+}
+
+/* tiêu đề */
+.truong, .khoa {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tieude {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* tiêu đề các năm */
+.tieude-nam {
+    font-family: "Times New Roman";
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+/* ===== DẤU ĐẦU DÒNG + FONT ===== */
+
+/* Năm 1: tròn rỗng */
+.nam1 ul {
+    font-family: Verdana;
+    font-size: 13pt;
+    list-style-type: circle;
+}
+
+/* Năm 2: vuông không rỗng */
+.nam2 ul {
+    font-family: Tahoma;
+    font-size: 13pt;
+    list-style-type: square;
+}
+
+/* Năm 3: tròn không rỗng */
+.nam3 ul {
+    font-family: "Times New Roman";
+    font-size: 13pt;
+    list-style-type: disc;
+}
+
+/* Thi tốt nghiệp */
+.thitn {
+    font-family: Verdana;
+    font-size: 13pt;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.tn {
+    font-family: Verdana;
+    font-size: 13pt;
+    color: red;
+}
