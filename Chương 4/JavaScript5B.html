@@ -1,0 +1,22 @@
+<HTML>
+<BODY>
+
+<script language="JavaScript">
+    function DongHo()
+    {
+        var D = new Date();
+        document.getElementById("time").innerHTML =
+            "Bây giờ là: " 
+            + D.getHours() + " giờ "
+            + D.getMinutes() + " phút "
+            + D.getSeconds() + " giây";
+    }
+
+    setInterval("DongHo()", 1000);
+</script>
+
+<h2 id="time"></h2>
+
+</BODY>
+</HTML>
+

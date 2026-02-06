@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bài làm Javascript 04A</title>
+</head>
+
+<body>
+<script language="JavaScript">
+    document.write("<h2>Lấy ND trong textbox</h2><br><br>");
+
+    function HienThi()
+    {
+        if (msg04.value != "")
+            alert(msg04.value);
+        else
+            alert("Bạn hãy nhập vào ô text và thử lại !");
+    }
+</script>
+
+<input type="button" name="Chao" value="Chào" onclick="HienThi()">
+<br><br>
+<input type="text" id="msg04" value="Chào các bạn" size="40">
+
+</body>
+</html>
