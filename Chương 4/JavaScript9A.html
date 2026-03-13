@@ -1,0 +1,19 @@
+<html>
+<body>
+<script>
+    var DS = [];
+    var soLuong = prompt("Nhập số người:");
+
+    for (var i = 0; i < soLuong; i++) {
+        DS[i] = prompt("Nhập họ tên:");
+    }
+
+    DS.sort();
+
+    document.write("<h1>Danh sách đã sắp xếp</h1>");
+    for (var x in DS) {
+        document.write(DS[x] + "<br>");
+    }
+</script>
+</body>
+</html>
