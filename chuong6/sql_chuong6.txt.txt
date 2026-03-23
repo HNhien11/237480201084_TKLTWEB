@@ -1,0 +1,33 @@
+cau3
+CREATE TABLE TONKHO (
+    mahang VARCHAR(4) PRIMARY KEY,
+    tenhang VARCHAR(40),
+    mansx VARCHAR(2),
+    namsx INT,
+    gia INT,
+    soluong INT
+);
+
+
+cau4
+INSERT INTO TONKHO (mahang, tenhang, mansx, namsx, gia, soluong)
+VALUES 
+('DE01', 'Dell Vostro', 'DE', 2015, 650, 20),
+('DE02', 'Dell Inspiron', 'DE', 2015, 550, 30);
+
+
+cau5
+UPDATE KHACHHANG
+SET sodt = '0912131415'
+WHERE makh = 'K007';
+
+
+cau6
+DELETE FROM khachhang
+WHERE makh = 'K010';
+
+
+cau7
+SELECT *
+FROM TONKHO
+WHERE mansx = 'DE';
